@@ -25,7 +25,9 @@ def get_gold_prices():
             "gold_24k": r.gold_24k,
             "gold_22k": r.gold_22k,
             "gold_18k": r.gold_18k,
-            "gold_24k": r.gold_24k,
+            "gold_24k_inr": r.gold_24k_inr,
+            "gold_22k_inr": r.gold_22k_inr,
+            "gold_18k_inr": r.gold_18k_inr,
             "date_scraped": r.date_scraped
         }
         for r in records
